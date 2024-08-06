@@ -1,0 +1,75 @@
+order of teaching odelia,
+
+```
+file system, 
+
+import assets
+
+nodes in Godot,
+
+scenes in godot
+
+how to create new scenes
+
+how to add nodes to scenes
+
+**part 1**
+
+how to create a character
+
+about GDScript when making a character
+
+code the character movement (show her the menu for controls)
+
+add more nodes to character, (not all of them)
+
+add animations to character
+
+
+**Part 2**
+
+make a  world (talk about tilemaps, tilesets, Godot autotiles)
+  - navigate to terrain folder, drag the texture to Tilesets to create tiles instantly
+  - show her how to use tilemap to quickly add large blocks
+
+ADD THE CHARACTER USING SCENE INSTANCING< MAKE SURE THE OTHER SCENE IS SAVED
+
+start the world and see the character fail to land on the blocks, and character not centered
+
+talk about collisions
+
+add camera and collisions to tiles and characters,
+  - click on tilemap and add physics layer 0
+  - go to tileset and go to paint, and add attribute physics layer 0, there should be a square highlighted in blue. now you can "paint" this attribute to all the squares you want to have this layer of collision
+
+test the character in the world
+
+** part 3 ** 
+
+add an enemy area 2d, make sure to give it the group "Danger"
+
+press the lock children button, to move whole set out 
+
+add damage animation in the code of the player, and the health tracker
+
+remember the isinvincible
+
+
+
+** lesson 4 **
+
+collectibles
+  - make a banana area2d 
+  - no code required here, just do autoplay on load, infinite loop, 
+  - put in group "Collectible"
+  - in player, queue_free() the banana if the player touches it
+ 
+incrememnt player score by 1, make a score label and update it when score changes  
+
+double jump
+
+- make a variable that counts the numbner of jumps remaining
+- modify the jumps ui up 
+- reset the jumps when landing again
+
+```
